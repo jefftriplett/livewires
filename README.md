@@ -18,6 +18,23 @@ Live Wires is simple HTML & CSS. It doesn't try to be fancy. It doesn't look lik
 
 See the live example at http://example.livewires.io
 
+## The gist of the fork's changes
+
+The fork uses the (livereload browser extension)[http://feedback.livereload.com/knowledgebase/articles/86242-how-do-i-install-and-use-the-browser-extensions-] to push HTML, CSS, SASS, and JS changes to the browser. You will need to install one of these browser extensions.
+
+To install the python requirements:
+
+> easy_install pip
+> pip install -r requirements.txt
+
+To install Compass and Foreman:
+
+> gem install bundle
+> bundle install
+
+To make life easier, I've bundled compass and livereload into a foreman Procfile. Please see the `Profile` for the commands used to run each process:
+
+> foreman start
 
 ### Notes
 

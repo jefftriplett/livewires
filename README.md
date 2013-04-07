@@ -20,7 +20,7 @@ See the live example at http://example.livewires.io
 
 ## The gist of the fork's changes
 
-The fork uses the (livereload browser extension)[http://feedback.livereload.com/knowledgebase/articles/86242-how-do-i-install-and-use-the-browser-extensions-] to push HTML, CSS, SASS, and JS changes to the browser. You will need to install one of these browser extensions.
+The fork uses the [livereload browser extension](http://feedback.livereload.com/knowledgebase/articles/86242-how-do-i-install-and-use-the-browser-extensions-) to push HTML, CSS, SASS, and JS changes to the browser. You will need to install one of these browser extensions.
 
 To install the python requirements:
 

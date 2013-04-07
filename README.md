@@ -18,7 +18,25 @@ Live Wires is simple HTML & CSS. It doesn't try to be fancy. It doesn't look lik
 
 See the live example at http://example.livewires.io
 
+### Notes
+
+* Elements with a **.content** class will load text-like background filler
+* Adjust the height of **.content** elements using the **$line** variable (e.g. height:$line*5; will render 5 lines of "text")
+* List items will also load the text image unless you add the class, **.link-list**, to the containing **ol** or **ul**.
+* Images are loaded from http://placehold.it. Go there to see how it works
+* If ya don't like the code, don't hate on it. Just fork it and make it your own. Just keep in mind the main philosophy: Throw away as little work as possible. Your site should be an evolution, not a series of assets.
+
+
+### IMPORTANT
+
+I highly recommend that you work through this with your content strategist/copywriter. Even though it's not showing actual text, you should have a very close idea of the final content types and average passage lengths when possible. This is meant to be an approximation, but should still be based on actual content.
+
+Have fun!
+
+
 ## The gist of the fork's changes
+
+### Live code reloader
 
 The fork uses the [livereload browser extension](http://feedback.livereload.com/knowledgebase/articles/86242-how-do-i-install-and-use-the-browser-extensions-) to push HTML, CSS, SASS, and JS changes to the browser. You will need to install one of these browser extensions.
 
@@ -36,18 +54,7 @@ To make life easier, I've bundled compass and livereload into a foreman Procfile
 
 > foreman start
 
-### Notes
+### Other changes
 
-* Elements with a **.content** class will load text-like background filler
-* Adjust the height of **.content** elements using the **$line** variable (e.g. height:$line*5; will render 5 lines of "text")
-* List items will also load the text image unless you add the class, **.link-list**, to the containing **ol** or **ul**.
-* Images are loaded from http://placehold.it. Go there to see how it works
-* There are a couple example patterns that I often use in **/scss/livewires/readymade/**. They can be a great starting point.
-* If ya don't like the code, don't hate on it. Just fork it and make it your own. Just keep in mind the main philosophy: Throw away as little work as possible. Your site should be an evolution, not a series of assets.
-
-
-### IMPORTANT
-
-I highly recommend that you work through this with your content strategist/copywriter. Even though it's not showing actual text, you should have a very close idea of the final content types and average passage lengths when possible. This is meant to be an approximation, but should still be based on actual content.
-
-Have fun!
+* Moved images from placehold.it to [Holder.js](http://imsky.github.io/holder/) go there to see how it works.
+* Updated .php file references to .html references so the demo works completely offline.

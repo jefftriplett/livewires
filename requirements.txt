@@ -1,0 +1,3 @@
+# the following repo fixes a bug that hasn't been addressed in the mainline
+# repo; otherwise, livereload>=0.14 should be pinned.
+git+git://github.com/AlexColson/python-livereload.git

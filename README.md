@@ -42,12 +42,12 @@ The fork uses the [livereload browser extension](http://feedback.livereload.com/
 
 To install the python requirements:
 
-> easy_install pip
+> easy_install pip  
 > pip install -r requirements.txt
 
 To install Compass and Foreman:
 
-> gem install bundle
+> gem install bundle  
 > bundle install
 
 To make life easier, I've bundled compass and livereload into a foreman Procfile. Please see the `Profile` for the commands used to run each process:
